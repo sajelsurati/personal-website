@@ -1,7 +1,9 @@
 <script>
     import Typewriter from 'svelte-typewriter'
+    import Header from '$lib/components/Header.svelte'
 </script>
 
+<Header/>
 <div class = "title">
     <Typewriter interval=45>
         <h1>Sajel Surati</h1>
@@ -10,7 +12,7 @@
 
 
 <div class = "body">
-    <img src = "picture.png" alt = "A picture of a woman smiling" class = "picture">
+    <img src = "picture.png" alt = "A woman smiling" class = "picture">
     <p>Hi there! My name is Sajel Surati and I am a senior at Bowdoin College studying
         math and computer science. I'm interested in the intersection of computer science 
         and society. </p>
